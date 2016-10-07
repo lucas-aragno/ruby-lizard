@@ -1,0 +1,2 @@
+webpack: node bin/webpack-dev-server.js
+web: rerun -- RACK_ENV=development rackup -p 9293 config.ru

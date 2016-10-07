@@ -35,7 +35,11 @@ module RubyLizard
     end
 
     get "*" do
-      send_file File.join(settings.public_folder, 'index.html')
+      unless ENV["RACK_ENV"] == "development"
+        send_file File.join(settings.public_folder, 'index.html')
+      else
+        send_file File.join(settings.public_folder, 'index-hot.html')
+      end
     end
 
     private

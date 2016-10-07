@@ -7,14 +7,8 @@ $ npm install
 $ bundle install
 ```
 
-## Build the assets
+## Run it in Dev mode
 
 ```bash
-$ npm run build
-```
-
-## Run it!
-
-```bash
-$ npm run start
+$ foreman start -f Procfile.dev
 ```

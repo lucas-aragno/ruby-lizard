@@ -1,10 +1,6 @@
 {
   "name": "ruby-lizard",
   "version": "0.0.1",
-  "scripts": {
-    "build": "ruby app.rb",
-    "start-dev": "webpack && rerun -- rackup -p 9293 config.ru"
-  },
   "dependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.9.1",
@@ -14,6 +10,7 @@
     "bootstrap": "^3.3.7",
     "css-loader": "^0.23.1",
     "file-loader": "^0.9.0",
+    "lodash": "^4.16.4",
     "postcss": "^5.2.4",
     "postcss-cssnext": "^2.8.0",
     "postcss-import": "^8.1.2",
@@ -27,7 +24,6 @@
     "webpack": "^1.13.1"
   },
   "devDependencies": {
-    "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.10.0"
+    "webpack-dev-server": "^1.16.2"
   }
 }
