@@ -3,12 +3,23 @@ GEM
   specs:
     backports (3.6.8)
     bacon (1.2.0)
+    ffi (1.9.14)
+    listen (3.1.5)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
     multi_json (1.12.1)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    rerun (0.11.0)
+      listen (~> 3.0)
+    ruby_dep (1.4.0)
     sequel (4.39.0)
     sinatra (1.4.7)
       rack (~> 1.5)
@@ -34,6 +45,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rerun
   sinatra
   sinatra-namespace
   sinatra-sequel

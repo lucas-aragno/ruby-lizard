@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "ruby app.rb",
-    "start": "webpack && rackup -p 9293 config.ru"
+    "start-dev": "webpack && rerun -- rackup -p 9293 config.ru"
   },
   "dependencies": {
     "babel": "^6.5.2",
