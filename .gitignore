@@ -2,3 +2,4 @@ public/js/bundle.*
 node_modules/
 npm-debug.log
 tmp/
+development.db
