@@ -8,7 +8,9 @@ module RubyLizard
     register Sinatra::Namespace
 
     namespace "/api" do
-      content_type :json
+      before do
+        content_type 'application/json'
+      end
 
       get "/things" do
         {}.to_json
