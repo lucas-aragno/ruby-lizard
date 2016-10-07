@@ -1,6 +1,8 @@
 import React from 'react'
 
-const ThingForm = () => (
+const ThingForm = ({
+  afterCreate
+}) => (
   <div>
     <form>
       <input name='name' placeholder='name' />
