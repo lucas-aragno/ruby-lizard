@@ -22,5 +22,5 @@ $ npm run start
 ## You can set up some Things running:
 
 ```bash
-$ curl -i -d "name=test&description=testesttest" http://localhot:9293/api/things
+$ curl -i -d "name=test&description=testesttest" http://localhost:9293/api/things
 ```
