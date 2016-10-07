@@ -4,8 +4,6 @@ require "json"
 require_relative "config/init"
 require_relative "models/thing"
 
-DB = database
-THINGS = DB.from(:things)
 
 module RubyLizard
   class App < Sinatra::Base
