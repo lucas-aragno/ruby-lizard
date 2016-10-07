@@ -6,7 +6,6 @@ var postcssCssnext = require('postcss-cssnext')
 module.exports = {
   devtool: 'source-map',
   entry: [
-    'webpack-hot-middleware/client',
     './frontend/javascript/index'
   ],
   output: {
