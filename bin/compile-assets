@@ -1,4 +1,4 @@
-if ["$RACK_ENV" = "production"]
-  then
-    NODE_ENV=production $(npm bin)/webpack
+if [ "$RAILS_ENV" = "production" ]
+then
+  NODE_ENV=production $(npm bin)/webpack
 fi
