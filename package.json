@@ -2,7 +2,7 @@
   "name": "ruby-lizard",
   "version": "0.0.1",
    "scripts": {
-     "postinstall": "bin/complie-assets"
+     "postinstall": "chmod +x bin/compile-assets && bin/compile-assets"
    },
   "dependencies": {
     "babel": "^6.5.2",
